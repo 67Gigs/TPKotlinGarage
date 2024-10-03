@@ -5,7 +5,7 @@ import classes.Voiture
 
 fun main() {
 
-    val voiture = Voiture("Peugeot", "Gris", 2019, 4)
+    val voiture = Voiture("Peugeot", "Gris", 2019, 4, 8)
     val moto = Moto("Yamaha", "Noir", 2020, true)
     val camion = Camion("Renault", "Blanc", 2018,  123.0)
 
