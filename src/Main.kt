@@ -26,4 +26,5 @@ fun main() {
     garage.affichageChoix("Moto")
 
     garage.affichageChoix("Camion")
+
 }

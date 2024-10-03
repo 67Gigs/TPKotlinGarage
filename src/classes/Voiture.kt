@@ -1,5 +1,6 @@
 package classes
 
+// Voiture class that inherits from Vehicule class
 class Voiture(marque: String, couleur: String, annee: Int, private var nbPorte: Int, private var cylindree: Int) :
     Vehicule(marque, couleur, annee) {
 
@@ -11,6 +12,7 @@ class Voiture(marque: String, couleur: String, annee: Int, private var nbPorte: 
         println("Pouet pouet!")
     }
 
+    // Getters and setters
     fun getNbPorte(): Int {
         return nbPorte
     }

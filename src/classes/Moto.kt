@@ -1,5 +1,6 @@
 package classes
 
+// Moto class that inherits from Vehicule class
 class Moto(marque: String, couleur: String, annee: Int, private var sideCar: Boolean) :
     Vehicule(marque, couleur, annee) {
 
@@ -11,6 +12,7 @@ class Moto(marque: String, couleur: String, annee: Int, private var sideCar: Boo
         println("Bip bip!")
     }
 
+    // Getters and setters
     fun getSideCar(): Boolean {
         return sideCar
     }

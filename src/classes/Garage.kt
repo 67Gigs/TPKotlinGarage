@@ -1,14 +1,15 @@
 package classes
 
+// data class that has a list of vehicules
 data class Garage(var vehicules: ArrayList<Vehicule>) {
 
     public fun ajouterVehicule(vehicule: Vehicule) {
-        vehicules += vehicule
+        vehicules += vehicule // Add vehicule to the list
     }
 
     public fun afficherGarage() {
         for (vehicule in vehicules) {
-            vehicule.afficherDetails()
+            vehicule.afficherDetails() // Call afficherDetails() method from Vehicule class
         }
     }
 
