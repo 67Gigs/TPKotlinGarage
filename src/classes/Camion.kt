@@ -10,4 +10,12 @@ class Camion(marque: String, couleur: String, annee: Int, private var capaciteCh
     override fun klaxonner() {
         println("Tuuut tuuut!")
     }
+
+    fun getCapaciteChargement(): Double {
+        return capaciteChargement
+    }
+
+    fun setCapaciteChargement(capaciteChargement: Double) {
+        this.capaciteChargement = capaciteChargement
+    }
 }

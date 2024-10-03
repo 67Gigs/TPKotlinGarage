@@ -10,4 +10,12 @@ class Moto(marque: String, couleur: String, annee: Int, private var sideCar: Boo
     override fun klaxonner() {
         println("Bip bip!")
     }
+
+    fun getSideCar(): Boolean {
+        return sideCar
+    }
+
+    fun setSideCar(sideCar: Boolean) {
+        this.sideCar = sideCar
+    }
 }

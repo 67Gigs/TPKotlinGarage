@@ -11,4 +11,20 @@ class Voiture(marque: String, couleur: String, annee: Int, private var nbPorte: 
         println("Pouet pouet!")
     }
 
+    fun getNbPorte(): Int {
+        return nbPorte
+    }
+
+    fun getCylindree(): Int {
+        return cylindree
+    }
+
+    fun setNbPorte(nbPorte: Int) {
+        this.nbPorte = nbPorte
+    }
+
+    fun setCylindree(cylindree: Int) {
+        this.cylindree = cylindree
+    }
+
 }
