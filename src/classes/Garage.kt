@@ -1,6 +1,6 @@
 package classes
 
-data class Garage(var vehicules: Array<Vehicule>) {
+data class Garage(var vehicules: ArrayList<Vehicule>) {
 
     fun ajouterVehicule(vehicule: Vehicule) {
         vehicules += vehicule
