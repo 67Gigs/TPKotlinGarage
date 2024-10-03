@@ -1,6 +1,6 @@
 package classes
 
-class Voiture(marque: String, couleur: String, annee: Int, private var nbPorte: Int, var cylindree: Int) :
+class Voiture(marque: String, couleur: String, annee: Int, private var nbPorte: Int, private var cylindree: Int) :
     Vehicule(marque, couleur, annee) {
 
     override fun afficherDetails() {
