@@ -9,7 +9,7 @@ fun main() {
     val moto = Moto("Yamaha", "Noir", 2020, true)
     val camion = Camion("Renault", "Blanc", 2018,  123.0)
 
-    val garage = Garage(arrayOf())
+    val garage = Garage(arrayListOf())
 
     garage.ajouterVehicule(voiture)
     garage.ajouterVehicule(moto)
